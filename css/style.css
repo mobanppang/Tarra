@@ -1,0 +1,136 @@
+@charset 'utf-8';
+
+/*@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); .notosanskr * { font-family: 'Noto Sans KR', sans-serif; }*/
+
+*{margin: 0;padding: 0;}
+html,body{font-size: 12px; color: #333;}
+h1,h2,h3,h4,h5,h6{font-size: 100%;}
+ol,ul{list-style: none;}
+a{text-decoration: none; color: inherit;}
+img{vertical-align: bottom;}
+table{border-collapse: collapse;}
+button{border: none; background: transparent;}
+address{font-style: normal;}
+
+#warp{
+    width: 100%;
+}
+
+.boxalign{
+    width: 1100px;
+    margin: auto;
+}
+
+header{
+    height: 100px;
+/*    background: #eee;*/
+}
+header::after{
+    clear: both;
+    content: '';
+    display: block;
+}
+
+
+
+#logo{
+    float: left;
+    margin-top: 45px;
+}
+#logo h1{}
+#logo h1 a{}
+#logo h1 a img{}
+
+nav{
+    float: right;
+}
+nav div{
+    float: left;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 45px;
+}
+nav div+div{
+    margin-left: 60px;
+}
+nav div::after{
+    content: '';
+    display: block;
+    border-bottom: 1px solid #532c6d;
+    width: 0;
+    transition: 0.3s;
+    margin: auto;
+    padding-bottom: 4px;
+}
+nav div a{
+    display: block;
+    color: #999;
+}
+nav div:hover::after{
+    width: 100%;
+}
+nav div:hover a{
+    color: #532c6d;
+}
+
+main{
+    width: 1920px;
+    height: 432px;
+}
+main .slide{
+    width: 1920px;
+    height: 432px;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide li{
+    box-sizing: border-box;
+    width: 1920px;
+    height: 432px;
+    position: absolute;
+}
+.slide li .stext{
+    margin: 115px 0 0 410px;
+}
+.slide li .stext span{
+    font-size: 1.6rem;
+    font-family: 'Nanum Myeongjo', serif;
+}
+.slide li .stext span p{
+    font-size: 5rem;
+    padding: 10px 0 20px;
+}
+.slide li .stext button{
+    
+    display: block;
+    font-size: 1.2rem;
+    border: 1px solid #333;
+    padding: 10px 15px;
+    margin-top: 15px;
+    transition: 0.3s;
+}
+.stext button:hover{
+    background: #333;
+    color: #fff;
+/*    font-weight: bold;*/
+}
+
+.slide .simg1{
+    background: url(../img/slide01.jpg);
+    z-index: 3;
+}
+.slide .simg2{
+    background: url(../img/slide02.jpg);
+    z-index: 2;
+}
+.slide .simg3{
+    background: url(../img/slide03.jpg);
+    z-index: 1;
+}
+
+
+section{}
+
+footer{}
+
