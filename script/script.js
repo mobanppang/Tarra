@@ -1,4 +1,14 @@
-var imgs=2
+$(document).ready(function(){
+    $('nav div').hover(function(){
+        $(this).find('.sub').stop().slideToggle()
+    })
+    $('nav div').hover(function(){
+        $('header .sbox').stop().slideToggle()
+    })
+})
+
+
+/*var imgs=2
 var now=0
 
 function slide(){
@@ -16,4 +26,4 @@ function start(){
         marginLeft:'-1920px'
     })
     setInterval(slide,4000)
-}start()
+}start()*/
