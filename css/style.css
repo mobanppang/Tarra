@@ -29,12 +29,15 @@ header{
 }
 
 header .htop{
-    background: #333;
+/*    background: #333;*/
     color: #fff;
+    overflow: hidden;
+    background: url(../img/hbox.jpg);
+    border-bottom: 1px solid #764c93;
 }
 .htop .htmenu{
-    overflow: hidden;
-    padding: 1.3rem 5px;
+    float: left;
+    padding: 1.4rem 0;
 }
 .htmenu li{
     float: left;
@@ -42,12 +45,12 @@ header .htop{
 .htmenu li:first-child a{
     background: url(../img/home_icon.png) no-repeat;
     padding-left: 20px;
-    opacity: 0.7;
+    opacity: 0.5;
 }
 .htmenu li a{
     display: block;
     float: left;
-    opacity: 0.7;
+    opacity: 0.5;
     transition: 0.3s;
 }
 .htmenu li:hover a{
@@ -57,10 +60,56 @@ header .htop{
     display: block;
     width: 1px;
     height: 10px;
-    background: #666;
+    background: #764c93;
     float: right;
     margin: 2px 10px 0;
 }
+
+.htop .snscover{
+    float: right;
+}
+.htop .snscover li{
+    float: left;
+}
+.htop .snscover li a{
+    display: block;
+    width: 28px;
+    height: 28px;    
+    margin: 10px 0 10px 10px;
+    transition: 0.2s;
+    opacity: 0.7;
+}
+.snscover .sns1 a{
+    background: url(../img/sns_icon.png);
+}
+.snscover .sns2 a{
+    background: url(../img/sns_icon.png) -28px 0;
+}
+.snscover .sns3 a{
+    background: url(../img/sns_icon.png) -56px 0;
+}
+.snscover .sns4 a{
+    background: url(../img/sns_icon.png) -84px 0;
+}
+
+.snscover .sns1:hover a{
+    background: url(../img/sns_icon.png) 0 -28px;
+    opacity: 1;
+}
+.snscover .sns2:hover a{
+    background: url(../img/sns_icon.png) -28px -28px;
+    opacity: 1;
+}
+.snscover .sns3:hover a{
+    background: url(../img/sns_icon.png) -56px -28px;
+    opacity: 1;
+}
+.snscover .sns4:hover a{
+    background: url(../img/sns_icon.png) -84px -28px;
+    opacity: 1;
+}
+
+
 
 header .hbot{
     height: 84px;
@@ -70,6 +119,9 @@ header .hbot{
     content: '';
     display: block;
 }
+
+
+
 .hbot #logo{
     float: left;
     margin-top: 30px;
@@ -94,7 +146,7 @@ nav div+div{
 }
 
 nav div>a{
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     display: block;
     color: rgba(246, 244, 240, 0.7);
 /*    font-weight: bold;*/
@@ -110,7 +162,7 @@ nav .sub{
     width: 600px;
     z-index: 99;
     top: 38px;
-    left: -70%;
+/*    left: -70%;*/
 /*    overflow: hidden;*/
     display: none;
 }
@@ -629,12 +681,84 @@ section{}
 .kbox a{}
 
 
-#grmn{}
+#grmn{
+    background: #444;
+    overflow: hidden;
+    color: #888;
+    padding: 20px 0 30px;
+}
+#grmn dl{
+    float: left;
+    width: 145px;
+}
+#grmn dl+dl{
+    margin-left: 30px;
+}
+#grmn dl dt{
+    font-size: 1.3rem;
+    padding: 20px 0;
+    border-bottom: 1px solid #888;
+    color: #ccc;
+    font-weight: bold;
+}
+#grmn dl dd{
+    padding-top: 15px;
+}
 
 
 
 
 
+footer{
+    background: #333;
+    padding-bottom: 30px;
+}
+footer .ftop{
+    padding: 20px 0;
+    border-bottom: 1px solid #777;
+}
+.ftop ul{
+    overflow: hidden;
+    color: #999;
+    font-weight: bold;
+}
+.ftop ul li{
+    float: left;
+}
+.ftop ul li a{}
+.ftop ul li span{
+    padding: 0 10px;
+}
 
-footer{}
+footer .fbot{
+    overflow: hidden;
+    color: #777;
+    padding: 20px 0;
+}
+#flogo{
+    float: left;
+}
+#flogo h1{}
+#flogo h1 a{
+    display: block;
+}
+#flogo h1 a img{}
+
+address{
+    float: left;
+    padding-left: 20px;
+    line-height: 1.4;
+}
+
+select{
+    float: right;
+    width: 150px;
+    height: 30px;
+    padding: 0 20px;
+    border-radius: 50px;
+    border: none;
+    background: #444;
+    color: #999;
+}
+select option{}
 
