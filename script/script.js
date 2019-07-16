@@ -2,28 +2,22 @@ $(document).ready(function(){
     $('nav div').hover(function(){
         $(this).find('.sub').stop().slideToggle()
     })
-    $('nav div').hover(function(){
+    $('nav div.mmenu').hover(function(){
         $('header .sbox').stop().slideToggle()
     })
 })
 
 
-/*var imgs=2
+var imgs=1
 var now=0
 
 function slide(){
     now=(now==imgs)?0:now+=1
-    $('.slide li').eq(now).animate({
-        marginLeft:'0'
-    })
-    $('.slide li').eq(now-1).animate({
-        marginLeft:'-1920px'
-    })
+    $('.imgs img').eq(now).fadeIn()
+    $('.imgs img').eq(now-1).fadeOut()
 }
 
 function start(){
-    $('.slide li').eq(0).siblings().animate({
-        marginLeft:'-1920px'
-    })
-    setInterval(slide,4000)
-}start()*/
+    $('.imgs img').eq(0).siblings().fadeOut()
+    setInterval(slide,3000)
+}start()
