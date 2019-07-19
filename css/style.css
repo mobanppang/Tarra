@@ -280,6 +280,7 @@ header .sbox{
     top: 133px;
     z-index: 90;
     display: none;
+    border-bottom: 1px solid #e3e2df;
 }
 
 
