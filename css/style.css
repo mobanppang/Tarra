@@ -157,80 +157,80 @@ nav div:hover>a{
 }
 nav div .micon1{
     background: url(../img/menu_icon.png);
-    width: 30px;
-    height: 15px;
+    width: 20px;
+    height: 10px;
     position: absolute;
-    top: 170%;
-    left: 30%;
+    top: 30px;
+    left: 36%;
     opacity: 0;
 }
 
 nav div .micon2{
     background: url(../img/menu_icon.png);
-    width: 30px;
-    height: 15px;
+    width: 20px;
+    height: 10px;
     position: absolute;
-    top: 170%;
-    left: 15%;
+    top: 30px;
+    left: 30%;
     opacity: 0;
 }
 
 nav div .micon3{
     background: url(../img/menu_icon.png);
-    width: 30px;
-    height: 15px;
+    width: 20px;
+    height: 10px;
     position: absolute;
-    top: 170%;
-    left: 35%;
+    top: 30px;
+    left: 44%;
     opacity: 0;
 }
 nav div .micon4{
     background: url(../img/menu_icon.png);
-    width: 30px;
-    height: 15px;
+    width: 20px;
+    height: 10px;
     position: absolute;
-    top: 170%;
-    left: 15%;
+    top: 30px;
+    left: 30%;
     opacity: 0;
 }
 
 
 nav div:hover .micon1{
     background: url(../img/menu_icon.png);
-    width: 30px;
-    height: 15px;
+    width: 20px;
+    height: 10px;
     position: absolute;
-    top: 170%;
-    left: 30%;
+    top: 30px;
+    left: 36%;
     opacity: 1;
 }
 
 nav div:hover .micon2{
     background: url(../img/menu_icon.png);
-    width: 30px;
-    height: 15px;
+    width: 20px;
+    height: 10px;
     position: absolute;
-    top: 170%;
-    left: 15%;
+    top: 30px;
+    left: 30%;
     opacity: 1;
 }
 
 nav div:hover .micon3{
     background: url(../img/menu_icon.png);
-    width: 30px;
-    height: 15px;
+    width: 20px;
+    height: 10px;
     position: absolute;
-    top: 170%;
-    left: 35%;
+    top: 30px;
+    left: 44%;
     opacity: 1;
 }
 nav div:hover .micon4{
     background: url(../img/menu_icon.png);
-    width: 30px;
-    height: 15px;
+    width: 20px;
+    height: 10px;
     position: absolute;
-    top: 170%;
-    left: 15%;
+    top: 30px;
+    left: 30%;
     opacity: 1;
 }
 
